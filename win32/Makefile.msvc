@@ -294,7 +294,7 @@ APPLIBS = $(LIBS)
 !if "$(STATIC)" == "1"
 APPLIBS = $(LIBS) libxml2.lib
 !if "$(WITH_ICONV)" == "1"
-APPLIBS = $(APPLIBS) iconv.lib
+APPLIBS = $(APPLIBS) libiconv_a.lib
 !endif
 !if "$(WITH_ZLIB)" == "1"
 APPLIBS = $(APPLIBS) zlib.lib
